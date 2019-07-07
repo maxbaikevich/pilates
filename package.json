@@ -1,0 +1,28 @@
+{
+  "name": "pilates",
+  "version": "1.0.0",
+  "description": "Landing site",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint\"source/less/**/*.sess\" --sintax less",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp start"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxbaikevich/pilates.git"
+  },
+  "author": "Maxim Baikevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxbaikevich/pilates/issues"
+  },
+  "homepage": "https://github.com/maxbaikevich/pilates#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1"
+  }
+}

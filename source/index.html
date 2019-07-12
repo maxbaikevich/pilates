@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/sfuitext-light.woff2" as="font" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Pilates</title>
 </head>
 <body>
   <header class="page-header">
-    <div class="container">
+    <div class="page-header__backgraund">
+     <div class="container">
       <nav class="main-nav">
         <a href="#" class="main-nav__link">
           <img  src="#" alt="Логотип" class="main-nav__img">
@@ -16,19 +18,19 @@
         <button class="main-nav__togle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
-        <ul class="site-list">
-          <li class="site-list__item"><a href="#" class="site-list__link">О пилатесе</a></li>
-          <li class="site-list__item"><a href="#" class="site-list__link">Расписание и стоимость</a></li>
-          <li class="site-list__item"><a href="#" class="site-list__link">Как проходят зханятия</a></li>
-          <li class="site-list__item"><a href="#" class="site-list__link">Отзывы</a></li>
-          <li class="site-list__item"><a href="#" class="site-list__link">Контакты</a></li>
+        <ul class="site-list-nav">
+          <li class="site-list-nav__item"><a href="#" class="site-list-nav__link">О пилатесе</a></li>
+          <li class="site-list-nav__item"><a href="#" class="site-list-nav__link">Расписание и стоимость</a></li>
+          <li class="site-list-nav__item"><a href="#" class="site-list-nav__link">Как проходят зханятия</a></li>
+          <li class="site-list-nav__item"><a href="#" class="site-list-nav__link">Отзывы</a></li>
+          <li class="site-list-nav__item"><a href="#" class="site-list-nav__link">Контакты</a></li>
         </ul>
       </nav>
     </div>
-    <div class="page-header__wrapper">
-      <div class="container">
+    <div class="container">
+      <div class="page-header__wrap">
         <h1 class="page-header__title global-title">Студия пилатеса</h1>
-        <button class="page-header__button btn">Смотреть расписание</button>
+        <a class="page-header__button btn"href="#">Смотреть расписание</a>
       </div>
     </div>
   </header>

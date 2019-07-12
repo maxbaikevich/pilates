@@ -4,28 +4,7 @@
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description rdf:about=""/>
    </rdf:RDF>
-</x:xmpmeta>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</x:xmpmeta>                                             
 <?xpacket end="w"?></metadata>
 <defs>
     <style>
@@ -35,5 +14,5 @@
       }
     </style>
   </defs>
-  <path id="circle-left" data-name="circle-left" class="cls-1" d="M-106.96-55.626S305.83-11.766,362.653,9.317c-0.28,270.906-100.935,518.1-542.413,456.465C-159.347,366.356-106.96-55.626-106.96-55.626Z"/>
+  <path id="Круг_слева" data-name="Круг слева" class="cls-1" d="M-106.96-55.626S305.83-11.766,362.653,9.317c-0.28,270.906-100.935,518.1-542.413,456.465C-159.347,366.356-106.96-55.626-106.96-55.626Z"/>
 </svg>
